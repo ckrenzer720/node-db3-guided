@@ -16,3 +16,23 @@ Guided project for **Node DB3** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor creates database access methods for a multi table schema.
+
+<!--
+        SQL JOINS
+
+    select count(o.orderid) as orders, (e.firstname || ' ' || e.lastname)
+        as employee from orders as o
+    join employees as e
+    on o.employeeid = e.employeeid;
+
+            40	Margaret Peacock
+            31	Janet Leverling
+            29	Nancy Davolio
+            27	Laura Callahan
+            20	Andrew Fuller
+            18	Michael Suyama
+            14	Robert King
+            11	Steven Buchanan
+            6	Anne Dodsworth
+
+ -->
